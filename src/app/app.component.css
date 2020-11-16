@@ -1,0 +1,15 @@
+/*Container
+==============*/
+.content {
+    display: grid;
+    grid-template-columns: 300px 1180px;
+  
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  @media (min-width: 300px) and (max-width: 1500px) {
+    .container {
+      width: auto;
+    }
+  }
